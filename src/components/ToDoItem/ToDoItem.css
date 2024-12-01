@@ -1,0 +1,17 @@
+.todo-item {
+  display: grid;
+  grid-template-columns: minmax(min-content, 500px) auto;
+  gap: 2px;
+}
+
+.todo-text {
+  display: flex;
+  align-items: center;
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
