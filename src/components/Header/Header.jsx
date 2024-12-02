@@ -16,6 +16,9 @@ const Header = () => {
           <Link to="/gallery">Book Gallery</Link>
         </li>
         <li>
+          <Link to="/todo">ToDo</Link>
+        </li>
+        <li>
           <Link to="/counter">Counter</Link>
         </li>
       </ul>
